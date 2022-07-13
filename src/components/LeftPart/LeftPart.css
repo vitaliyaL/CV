@@ -1,0 +1,46 @@
+.left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 50%;
+}
+.image{
+    background-image: url(../../assets/photo.JPG);
+    background-position: right center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter:grayscale();
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin-top: 40px;
+    margin-left: 80px;
+}
+.first__circle{
+    background-color: rgb(218, 194, 188);
+    height: 800px;
+    width: 800px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: -230px;
+}
+.aboutMe,.projects,.contacts{
+    margin-left: 80px;
+    z-index: 3;
+}
+.aboutMe{
+    margin-top: 50px;
+}
+.projects,.contacts{
+    margin-top: 200px;
+}
+.second__circle{
+    position: absolute;
+    background-color: rgb(133,133,133);
+    border-radius: 50%;
+    width: 500px;
+    height: 500px;
+    bottom: -200px;
+    left:-100px
+}
